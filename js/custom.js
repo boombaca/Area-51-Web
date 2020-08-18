@@ -160,7 +160,7 @@ var reasons = [
         document.getElementById("album").src = 
           images[i];
         i++;
-		  }
+      }
 $('document').ready(function () {
     customScripts.init();
 	$('.features-left, .features-right, .design, .serviceBox, .owl-wrapper-outer, #portfolio').css('opacity','0');
