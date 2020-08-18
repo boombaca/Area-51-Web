@@ -128,17 +128,17 @@ var customScripts = {
     }
 }
 var reasons = [
-	"Gemini Observatory Telescopes <br>  Diameter: 8.1 Meters <br> Location: Mauna Kea, Hawaii and Cerro Pachon, Chile",
-	"Very Large Telescope <br>  Diameter: 8.2 Meters <br> Location: Atacama Desert, Chile ",
-	"Subaru Telescope  <br> Diameter: 8.4 Meters <br> Location: Mauna Kea, Hawaii, The United States  ",
-	"Large Binocular Telescope  <br> Diameter: 8.4 Meters <br> Location: Pinaleno Mountains, Arizona, The United States",
-	"Southern African Large Telescope <br>  Diameter: 9.2 Meters <br> Location: Sutherland, South Africa ",
-	"Keck 1 and 2  <br> Diameter: 10 Meters <br> Location: Mauna Kea, Hawaii, The United States ",
-	"Hobby-Eberly Telescope <br>  Diameter: 10 meters <br> Location: Davis Mountain, Texas, The United States",
-	"Gran Telescopio Canarias <br>  Diameter: 10.4 meters <br> Location: La Palma, Canary Islands, Spain ",
-	"The Giant Magellan Telescope <br>  Diameter: 24.5 m <br> Location: Vallenar, Chile Estimated Completion: 2025 ",
-	"Thirty Meter Telescope <br>   Diameter: 30 Meters <br> Location: Mauna Kea, Hawaii Estimated Completion: 2027",
-	"1. European Extremely Large Telescope <br>  Diameter: 39.3 Meters<br> Location: Cerro Armazones, Chile Estimated Completion: 2024",
+	"Gemini Observatory Telescopes  Diameter: 8.1 Meters  Location: Mauna Kea, Hawaii and Cerro Pachon, Chile",
+	"Very Large Telescope   Diameter: 8.2 Meters  Location: Atacama Desert, Chile ",
+	"Subaru Telescope   Diameter: 8.4 Meters  Location: Mauna Kea, Hawaii, The United States  ",
+	"Large Binocular Telescope  Diameter: 8.4 Meters  Location: Pinaleno Mountains, Arizona, The United States",
+	"Southern African Large Telescope Diameter: 9.2 Meters Location: Sutherland, South Africa ",
+	"Keck 1 and 2  Diameter: 10 Meters Location: Mauna Kea, Hawaii, The United States ",
+	"Hobby-Eberly Telescope Diameter: 10 meters Location: Davis Mountain, Texas, The United States",
+	"Gran Telescopio Canarias   Diameter: 10.4 meters Location: La Palma, Canary Islands, Spain ",
+	"The Giant Magellan Telescope  Diameter: 24.5 m Location: Vallenar, Chile Estimated Completion: 2025 ",
+	"Thirty Meter Telescope   Diameter: 30 Meters  Location: Mauna Kea, Hawaii Estimated Completion: 2027",
+	"1. European Extremely Large Telescope  Diameter: 39.3 Meters Location: Cerro Armazones, Chile Estimated Completion: 2024",
 	"The end"
 	  ];
 	  var images = [
