@@ -1,9 +1,4 @@
-/*
-Theme Name: Vibrant 
-Author URI: http://webthemez.com/
-Description: This theme is a best responsive web template. It would be great for a corporate websites, business websites, personal blog.
-License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
-*/
+
 var customScripts = {
     profile: function () {
      	 var portfolio = $('#portfolio');
