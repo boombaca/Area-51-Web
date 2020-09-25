@@ -30,6 +30,65 @@
   clear: both;
   display: table;
 }
+  
+  .id {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.sky {
+  background:black;
+  width: 100vw;
+  height: 100vh;
+}
+
+.moon {
+  margin-top: 60px;
+  margin-left: calc(50% - 200px);
+  width: 200px;
+  height: 200px;
+}
+
+.shadow {
+  top: 225px;
+  left: calc(100vw + 200px);
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+  animation: show 10s infinite;
+  animation-direction: cubic-bezier(0,.38,1,.54);
+}
+
+@keyframes show {
+  0% {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  10% {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  45%, 55% {
+    top: 60px;
+    left: calc(50% - 200px);
+    background-color: rgba(100, 0, 0, .6);
+    -webkit-box-shadow: 0px 1px 17px 0px rgba(100, 0, 0, .6);
+    -moz-box-shadow: 0px 1px 17px 0px rgba(100, 0, 0, .6);
+    box-shadow: 0px 1px 17px 0px rgba(100, 0, 0, .6);
+  }
+
+  80% {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  100% {
+    top: -200px;
+    left: calc(-100vw - 200px);
+    background: rgba(0, 0, 0, 0);
+  }
+}
 </style>
 <body>
   
@@ -42,8 +101,9 @@
           <ul class="nav navbar-nav" id="mainNav">
             <li class="active" id="firstLink"><a href="#home" class="scroll-link"><h5>Home</h5></a></li>
             <li><a href="#features" class="scroll-link"><font size="3">Astronomy</font></a></li>
-            <li><a href="#aboutUs" class="scroll-link"><font size="3">Telescopes</font></a></li>
             <li><a href="#solar" class="scroll-link"><font size="3">Solar System</font></a></li>
+            <li><a href="#aboutUs" class="scroll-link"><font size="3">Telescopes</font></a></li>
+            <li><a href="#ghost" class="scroll-link"><font size="3">Eclipses</font></a></li>
             <li><a href="#services" class="scroll-link"><font size="3">SpaceX</font></a></li>
             <li><a href="#yeet" class="scroll-link"><font size="3">ISRO</font></a></li>
             <li><a href="#you were not supposed to do that" class="scroll-link"><font size="3">Constellation</font></a></li>
@@ -174,6 +234,23 @@
   </div>
 </section>
 
+<section id="solar">
+  <div class="container">
+    <div class="heading text-center"> 
+      <!-- Heading -->
+      <h2>3d Interactive Solar System</h2>
+      <p><strong></strong>to see the solar system plese use this link.</p>
+     <A href="https://boombaca.github.io/Solar-System/3D-CSS-Solar-System-master-20200712T163234Z-001/3D-CSS-Solar-System-master/index.html">https://boombaca.github.io/solarsytem-css/</A>
+    </div>
+    <div class="row feature design">
+      <div class="six columns right">
+        <P>The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, the dwarf planets and small Solar System bodies.The solar system is made up of the sun and everything that orbits around it, including planets, moons, asteroids, comets and meteoroids. ... Scientists estimate that the edge of the solar system is about 9 billion miles (15 billion kilometers) from the sun.</P>
+      </div>
+      <div class="six columns feature-media left"> <img src="https://moosmosis.files.wordpress.com/2018/03/gif-dribbble-space.gif">
+    </div>  
+  </div>
+  </div>
+</section>
 
 <section id="aboutUs">
   <div class="container">
@@ -204,25 +281,110 @@
   </div>
 </section>
 
-<section id="solar">
-  <div class="container">
-    <div class="heading text-center"> 
-      <!-- Heading -->
-      <h2>3d Interactive Solar System</h2>
-      <p><strong></strong>to see the solar system plese use this link.</p>
-     <A href="https://boombaca.github.io/Solar-System/3D-CSS-Solar-System-master-20200712T163234Z-001/3D-CSS-Solar-System-master/index.html">https://boombaca.github.io/solarsytem-css/</A>
-    </div>
-    <div class="row feature design">
-      <div class="six columns right">
-        <P>The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, either directly or indirectly. Of the objects that orbit the Sun directly, the largest are the eight planets, with the remainder being smaller objects, the dwarf planets and small Solar System bodies.The solar system is made up of the sun and everything that orbits around it, including planets, moons, asteroids, comets and meteoroids. ... Scientists estimate that the edge of the solar system is about 9 billion miles (15 billion kilometers) from the sun.</P>
+  <section id="ghost" class="page-section colord features">
+    <div class="container">
+      <div class="heading text-center"> 
+        <h2>Eclipses in a snap</h2>
+        <p>There are two types of Eclipses Solar Eclipse and Lunar Eclipse</p>
       </div>
-      <div class="six columns feature-media left"> <img src="https://moosmosis.files.wordpress.com/2018/03/gif-dribbble-space.gif">
-    </div>  
-  </div>
-  </div>
-</section>
+      <div class="row"> 
+        
+        <div class="col-md-4 col-sm-4 features-left wow"> 
+          
+          <div class="feature"> 
+            
+            <div class="icon-container">
+              <div class="icon"> <i class="icon_map_alt"></i> </div>
+            </div>
+            
+            <div class="fetaure-details">
+              <h4 class="main-color">Solar Eclipse</h4>
+              <a>A  happens when the moon gets in the way of the sun’s light and casts its shadow on Earth. That means during the day,the moon moves over the sun and it gets dark. </a>
+            </div>
+          </div>
+          
+          <div class="feature"> 
+            
+            <div class="icon-container">
+              <div class="icon"> <i class="icon_gift_alt"></i> </div>
+            </div>
+            
+            <div class="fetaure-details">
+              <h4 class="main-color">More Facts</h4>
+              <a>This total eclipse happens about every year and a half somewhere on Earth. A partial eclipse, when the moon doesn’t completely cover the sun, happens at least twice a year somewhere on Earth.</a>
+            </div>
+          </div>
+          
+          <div class="feature"> 
+            
+            <div class="icon-container">
+              <div class="icon"> <i class="icon_tablet"></i> </div>
+            </div>
+            
+            <div class="fetaure-details">
+              <h4 class="main-color">live news #1</h4>
+              <p>Venus, once billed as Earth's twin, is a hothouse (and a tantalizing target in the search for life)</p>
+<iframe width="877" height="493" src="https://cdn.mos.cms.futurecdn.net/vxfUmMMbjTBgJgDgqhMSCm-1024-80.jpg.webp" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            </div>
+          </div>
+          
+        </div>
+        
+        <div class="col-md-4 col-sm-4">
+          <div class="phone-image wow"> <img src="https://i.pinimg.com/originals/8e/db/48/8edb482e18c799857836fe7216e30146.jpg" alt=""> </div>
+        </div>
+        
+        <div class="col-md-4 col-sm-4 features-right wow" > 
+          
+          <div class="feature"> 
+            
+            <div class="icon-container">
+              <div class="icon"> <i class="icon_genius"></i> </div>
+            </div>
+            
+            <div class="fetaure-details">
+              <h4 class="main-color">Lunar Eclipse</h4>
+              <a>During a lunar eclipse, Earth gets in the way of the sun’s light hitting the moon. That means that during the night, a full moon fades away as Earth’s shadow covers it up.</a>
+            </div>
+          </div>
+          
+          <div class="feature"> 
+            
+            <div class="icon-container">
+              <div class="icon"> <i class="icon_lightbulb_alt"></i> </div>
+            </div>
+            
+            <div class="fetaure-details">
+              <h4 class="main-color">More Facts</h4>
+              <a>The moon can also look reddish because Earth’s atmosphere absorbs the other colors while it bends some sunlight toward the moon. Sunlight bending through the atmosphere and absorbing other colors is also why sunsets are orange and red.</a>
+            </div>
+          </div>
+          
+          <div class="feature"> 
+            
+            <div class="icon-container">
+              <div class="icon"> <i class="icon_ribbon_alt"></i> </div>
+            </div>
+            
+            <div class="fetaure-details">
+              <h4 class="main-color">A total Lunar Eclipse</h4>
+              <p>The sun has begun a new solar weather cycle. It should be pretty quiet, scientists say.</p>
+              <section id="id">
+              <div class="sky">
+              <img src='./img/moon.png' class='moon' />
+              </div>
+              <div class="shadow"></div>
+              </section>
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </section>
 
-
+  
 <section id="services">
   <div class="container services">
     <div class="heading text-center"> 
